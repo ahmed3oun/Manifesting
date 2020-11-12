@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/url_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9A9696"
+        android:hint="enter URL"
+        android:inputType="textUri"
+        android:padding="5dp"
+        android:textColorHighlight="#090909"
+        android:textColorHint="#101010" />
+
+    <Button
+        android:id="@+id/btn_url"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:paddingTop="4dp"
+        android:text="open URL" />
+
+    <EditText
+        android:id="@+id/map_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9A9696"
+        android:hint="enter your place name"
+        android:inputType="text"
+        android:padding="5dp"
+        android:textColorHighlight="#090909"
+        android:textColorHint="#101010" />
+
+    <Button
+        android:id="@+id/btn_map"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:paddingTop="4dp"
+        android:text="open MAP" />
+
+    <EditText
+        android:id="@+id/msg_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9A9696"
+        android:hint="enter your message"
+        android:inputType="text"
+        android:padding="5dp"
+        android:textColorHighlight="#090909"
+        android:textColorHint="#101010" />
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:paddingTop="4dp"
+        android:text="send" />
+
+</LinearLayout>
